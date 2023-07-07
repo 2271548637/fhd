@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:orientation="horizontal"
+    android:columnCount="4"
+    android:rowCount="7"
+    android:layout_marginBottom="8dp"
+    tools:context=".MainActivity"
+    tools:ignore="NewApi">=
+    <!-- 结果显示框 -->
+    <EditText
+        android:id="@+id/text"
+        android:layout_height="94dp"
+        android:layout_width="match_parent"
+        android:layout_columnSpan="4"
+        android:layout_gravity="fill"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="bottom|right"
+        android:inputType="numberDecimal"
+        android:text="0"
+        android:textSize="55sp"
+        android:background="@null"
+        android:focusable="false"/>
+    <!-- 清除输出窗口的所有内容 -->
+    <Button
+        android:id="@+id/btn_clear"
+        android:backgroundTint="#2CFFF6E9"
+        android:rotationX="2"
+        android:text="c"
+        android:textColor="#46D2E4"
+        android:textAllCaps="false"
+        android:textSize="30sp" />
+    <!--百分比-->
+    <Button
+        android:id="@+id/btn_percent"
+        android:backgroundTint="#2CFFF6E9"
+        android:text="%"
+        android:textColor="#46D2E4"
+        android:textSize="30sp" />
+    <!--退格键-->
+    <Button
+        android:id="@+id/btn_del"
+        android:backgroundTint="#2CFFF6E9"
+        android:text="←"
+        android:textColor="#46D2E4"
+        android:textSize="30sp" />
+    <!--正负数切换-->
+    <Button
+        android:id="@+id/btn_PandM"
+        android:backgroundTint="#2CFFF6E9"
+        android:text="+/-"
+        android:textColor="#46D2E4"
+        android:textSize="30sp"/>
+
+    <!--正弦计算-->
+    <Button
+        android:id="@+id/btn_sin"
+        android:backgroundTint="#2CFFF6E9"
+        android:text="sin"
+        android:textAllCaps="false"
+        android:textColor="#46D2E4"
+        android:textSize="30sp" />
+    <!--余弦计算-->
+    <Button
+        android:id="@+id/btn_cos"
+        android:backgroundTint="#2CFFF6E9"
+        android:text="cos"
+        android:textColor="#46D2E4"
+        android:textAllCaps="false"
+        android:textSize="30sp" />
+    <!--正切计算-->
+    <Button
+        android:id="@+id/btn_tan"
+        android:backgroundTint="#2CFFF6E9"
+        android:text="tan"
+        android:textColor="#46D2E4"
+        android:textAllCaps="false"
+        android:textSize="30sp"/>
+
+    <!--除法计算-->
+    <Button
+        android:id="@+id/btn_div"
+        android:backgroundTint="#2CFFF6E9"
+        android:text="÷"
+        android:textColor="#46D2E4"
+        android:textSize="30sp" />
+    <!--左括号-->
+    <Button
+        android:id="@+id/btn_leftbra"
+        android:backgroundTint="#2CFFF6E9"
+        android:text="("
+        android:textColor="#46D2E4"
+        android:textSize="30sp" />
+    <!--右括号-->
+    <Button
+        android:id="@+id/btn_rightbra"
+        android:backgroundTint="#2CFFF6E9"
+        android:text=")"
+        android:textColor="#46D2E4"
+        android:textSize="30sp" />
+    <!--开平方根-->
+    <Button
+        android:id="@+id/btn_squ2"
+        android:backgroundTint="#2CFFF6E9"
+        android:text="√"
+        android:textColor="#46D2E4"
+        android:textSize="30sp" />
+    <!--乘法计算-->
+    <Button
+        android:id="@+id/btn_mul"
+        android:backgroundTint="#2CFFF6E9"
+        android:text="×"
+        android:textColor="#46D2E4"
+        android:textSize="30sp" />
+    <!--7-->
+    <Button
+        android:id="@+id/btn_7"
+        android:backgroundTint="#2CFFF6E9"
+        android:text="7"
+        android:textColor="@color/black"
+        android:textSize="30sp" />
+    <!--8-->
+    <Button
+        android:id="@+id/btn_8"
+        android:backgroundTint="#2CFFF6E9"
+        android:text="8"
+        android:textColor="@color/black"
+        android:textSize="30sp" />
+    <!--9-->
+    <Button
+        android:id="@+id/btn_9"
+        android:backgroundTint="#2CFFF6E9"
+        android:text="9"
+        android:textColor="@color/black"
+        android:textSize="30sp" />
+    <!--减法计算-->
+    <Button
+        android:id="@+id/btn_sub"
+        android:backgroundTint="#2CFFF6E9"
+        android:text="-"
+        android:textColor="#46D2E4"
+        android:textSize="30sp" />
+    <!--4-->
+    <Button
+        android:id="@+id/btn_4"
+        android:backgroundTint="#2CFFF6E9"
+        android:text="4"
+        android:textColor="@color/black"
+        android:textSize="30sp" />
+    <!--5-->
+    <Button
+        android:id="@+id/btn_5"
+        android:backgroundTint="#2CFFF6E9"
+        android:text="5"
+        android:textColor="@color/black"
+        android:textSize="30sp" />
+    <!--6-->
+    <Button
+        android:id="@+id/btn_6"
+        android:backgroundTint="#2CFFF6E9"
+        android:text="6"
+        android:textColor="@color/black"
+        android:textSize="30sp" />
+    <!--加法计算-->
+    <Button
+        android:id="@+id/btn_add"
+        android:backgroundTint="#2CFFF6E9"
+        android:text="+"
+        android:textColor="#46D2E4"
+        android:textSize="30sp" />
+    <!--1-->
+    <Button
+        android:id="@+id/btn_1"
+        android:backgroundTint="#2CFFF6E9"
+        android:text="1"
+        android:textColor="@color/black"
+        android:textSize="30sp" />
+    <!--2-->
+    <Button
+        android:id="@+id/btn_2"
+        android:backgroundTint="#2CFFF6E9"
+        android:text="2"
+        android:textColor="@color/black"
+        android:textSize="30sp" />
+    <!--3-->
+    <Button
+        android:id="@+id/btn_3"
+        android:backgroundTint="#2CFFF6E9"
+        android:text="3"
+        android:textColor="@color/black"
+        android:textSize="30sp" />
+    <!--等于号-->
+    <Button
+        android:id="@+id/btn_equ"
+        android:backgroundTint="#2CFFF6E9"
+        android:layout_width="87dp"
+        android:layout_gravity="fill_vertical"
+        android:layout_rowSpan="2"
+        android:text="="
+        android:textColor="#46D2E4"
+        android:textSize="30sp" />
+    <!--0-->
+    <Button
+        android:id="@+id/btn_0"
+        android:backgroundTint="#2CFFF6E9"
+        android:layout_columnSpan="2"
+        android:layout_gravity="fill_horizontal"
+        android:text="0"
+        android:textColor="@color/black"
+        android:textSize="30sp" />
+    <!--小数点-->
+    <Button
+        android:id="@+id/btn_p"
+        android:backgroundTint="#2CFFF6E9"
+        android:text="."
+        android:textColor="@color/black"
+        android:textSize="30sp" />
+
+
+</GridLayout>
